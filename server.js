@@ -9,7 +9,7 @@ const router = jsonServer.router('db.json')
 app.db = router.db
 
 const rules = auth.rewriter({
-  '/users*': '/600/users$1',
+  '/users*': '/400/users$1',
   '/tasks*': '/664/tasks$1',
 })
 
